@@ -1,7 +1,7 @@
 #include"solution.h"
 
 
-void Print(vector<vector<int>>&v)
+void Print(vector<vector<int>>& v)
 {
 	for (int i = 0; i < v.size(); i++)
 	{
@@ -22,7 +22,8 @@ int main()
 	//cin >> n;
 	//cin >> m;
 	//vector<vector<int >>a(n*m, vector<int>(n*m));
-	equation f(5);
+	equation f(4);
+	Print(f.A_);
 	Print(f.A);
 	Print(f.end_result);
 	/*for (auto& x : f.now_result)
